@@ -1,0 +1,60 @@
+//#define NDEBUG
+#include <cassert>
+#include "Cjt_estudiants.hh"
+
+
+// NOMÉS PODEU MODIFICAR AQUEST FITXER.
+// AQUEST ÉS L'ÚNIC FITXER QUE S'UTILITZARÀ PER AVALUAR EL VOSTRE LLIURAMENT.
+
+// SÓLO PODËIS MODIFICAR ESTE ARCHIVO.
+// ESTE ARCHIVO ES EL ÚNICO QUE SE UTILIZARÄ PARA EVALUAR VUESTRA ENTREGA.
+
+
+
+// Aquest mètode forma part de la implementació de la classe Cjt_estudiants.
+// L'especificació d'aquest mètode és al fitxer Cjt_estudiants.hh
+void Cjt_estudiants::avaluacio_global_iesim(int i) {
+
+  // Escriviu aquí el cos del mètode avaluacio_global_iesim
+
+}
+
+
+
+// Aquest mètode forma part de la implementació de la classe Cjt_estudiants.
+// L'especificació d'aquest mètode és al fitxer Cjt_estudiants.hh
+
+// La part de la implementació donada és correcta, però incompleta.
+// Podeu completar la part que falta de la implementació en
+// l'espai indicat pel comentari 
+void Cjt_estudiants::parcials_presentats_aprovats() const {
+  vector<bool> subconj(nombre_parcials,false);
+  // exàmens parcials presentats per tots els estudiants aprovats
+  int np = 0; 
+  int i = 0;
+  while (i < nest and vest[i].consultar_nota_global() < 5.0) ++i; 
+  if (i < nest) {
+     for (int j = 1; j <= nombre_parcials; ++j) {
+        if (vest[i].consultar_nota_parcial(j) != -1) {
+	   subconj[j-1] = true;
+	   ++np;
+        }
+     } 
+     ++i;
+     // exàmens parcials als quals s'ha presentat el primer estudiant aprovat
+  }
+
+
+  // Completeu aquí el cos del mètode parcials_presentats_aprovats
+
+
+
+  cout << endl << "Examens parcials presentats per tots els estudiants aprovats: ";
+  if (np > 0) {
+     for (int j = 1; j <= nombre_parcials; ++j) {
+        if (subconj[j-1]) cout << " " << j;
+     }
+  }
+  cout << endl;
+}
+

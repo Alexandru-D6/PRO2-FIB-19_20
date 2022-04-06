@@ -1,0 +1,74 @@
+\begin{theindex}
+
+  \item {anadir\_prenda}
+    \subitem {Cubeta}, \hyperpage{8}
+    \subitem {Lavadora}, \hyperpage{11}
+
+  \indexspace
+
+  \item {completar\_lavadora}
+    \subitem {Cubeta}, \hyperpage{9}
+  \item {consul\_color}
+    \subitem {Prenda}, \hyperpage{16}
+  \item {consul\_peso}
+    \subitem {Prenda}, \hyperpage{16}
+  \item {consultar\_color}
+    \subitem {Lavadora}, \hyperpage{12}
+  \item {consultar\_peso}
+    \subitem {Lavadora}, \hyperpage{13}
+  \item {consultar\_peso\_maximo}
+    \subitem {Lavadora}, \hyperpage{13}
+  \item {Cubeta}, \hyperpage{7}
+    \subitem {anadir\_prenda}, \hyperpage{8}
+    \subitem {completar\_lavadora}, \hyperpage{9}
+    \subitem {Cubeta}, \hyperpage{7, 8}
+    \subitem {escribir}, \hyperpage{9}
+  \item {Cubeta.hh}, \hyperpage{17}
+
+  \indexspace
+
+  \item {escribir}
+    \subitem {Cubeta}, \hyperpage{9}
+    \subitem {Lavadora}, \hyperpage{13}
+    \subitem {Prenda}, \hyperpage{16}
+  \item {esta\_inicializada}
+    \subitem {Lavadora}, \hyperpage{12}
+
+  \indexspace
+
+  \item {inicializar}
+    \subitem {Lavadora}, \hyperpage{11}
+
+  \indexspace
+
+  \item {lavado}
+    \subitem {Lavadora}, \hyperpage{12}
+  \item {Lavadora}, \hyperpage{10}
+    \subitem {anadir\_prenda}, \hyperpage{11}
+    \subitem {consultar\_color}, \hyperpage{12}
+    \subitem {consultar\_peso}, \hyperpage{13}
+    \subitem {consultar\_peso\_maximo}, \hyperpage{13}
+    \subitem {escribir}, \hyperpage{13}
+    \subitem {esta\_inicializada}, \hyperpage{12}
+    \subitem {inicializar}, \hyperpage{11}
+    \subitem {lavado}, \hyperpage{12}
+    \subitem {Lavadora}, \hyperpage{11}
+  \item {Lavadora.hh}, \hyperpage{18}
+
+  \indexspace
+
+  \item {modificar}
+    \subitem {Prenda}, \hyperpage{15}
+
+  \indexspace
+
+  \item {Prenda}, \hyperpage{14}
+    \subitem {consul\_color}, \hyperpage{16}
+    \subitem {consul\_peso}, \hyperpage{16}
+    \subitem {escribir}, \hyperpage{16}
+    \subitem {modificar}, \hyperpage{15}
+    \subitem {Prenda}, \hyperpage{15}
+  \item {Prenda.hh}, \hyperpage{18}
+  \item {pro2\_s8.cc}, \hyperpage{19}
+
+\end{theindex}
